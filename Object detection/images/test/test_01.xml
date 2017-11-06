@@ -1,0 +1,26 @@
+<annotation>
+  <folder>test</folder>
+  <filename>dasani--sparkling-black-cherry.main-image.434-624</filename>
+  <path>C:\Users\krishnendu.s.kar\Documents\ACN_Obj_det\Object detection\data\test\dasani--sparkling-black-cherry.main-image.434-624.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>434</width>
+    <height>624</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Black Cherry</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>100</xmin>
+      <ymin>51</ymin>
+      <xmax>338</xmax>
+      <ymax>612</ymax>
+    </bndbox>
+  </object>
+</annotation>
