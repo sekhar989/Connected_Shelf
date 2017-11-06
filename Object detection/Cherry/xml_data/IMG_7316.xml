@@ -1,0 +1,26 @@
+<annotation>
+  <folder>Cherry</folder>
+  <filename>IMG_7316</filename>
+  <path>C:\Users\krishnendu.s.kar\Documents\Personal\Deep_Learning\models\research\object_detection\ACN_Obj_det\Object detection\Cherry\IMG_7316.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>3264</width>
+    <height>2448</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Black Cherry</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>478</xmin>
+      <ymin>1034</ymin>
+      <xmax>3068</xmax>
+      <ymax>2061</ymax>
+    </bndbox>
+  </object>
+</annotation>
