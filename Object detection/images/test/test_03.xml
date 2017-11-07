@@ -1,26 +1,26 @@
 <annotation>
-  <folder>test</folder>
-  <filename>caa27e46756193.5862d83e10f4b</filename>
-  <path>C:\Users\krishnendu.s.kar\Documents\ACN_Obj_det\Object detection\data\test\caa27e46756193.5862d83e10f4b.jpg</path>
-  <source>
-    <database>Unknown</database>
-  </source>
-  <size>
-    <width>600</width>
-    <height>472</height>
-    <depth>3</depth>
-  </size>
-  <segmented>0</segmented>
-  <object>
-    <name>Black Cherry</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-      <xmin>262</xmin>
-      <ymin>41</ymin>
-      <xmax>471</xmax>
-      <ymax>463</ymax>
-    </bndbox>
-  </object>
+	<folder>images</folder>
+	<filename>test_03.jpeg</filename>
+	<path>/home/arnab/Connected_Shelf/Object detection/images/test_03.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>150</width>
+		<height>118</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blackcherry</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>11</ymin>
+			<xmax>119</xmax>
+			<ymax>116</ymax>
+		</bndbox>
+	</object>
 </annotation>
