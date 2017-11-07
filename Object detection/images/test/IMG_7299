@@ -1,0 +1,26 @@
+<annotation>
+  <folder>images-2017-11-07T04-38-29</folder>
+  <filename>IMG_7299</filename>
+  <path>C:\Users\krishnendu.s.kar\Documents\images-2017-11-07T04-38-29\IMG_7299.jpeg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>816</width>
+    <height>612</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>lemon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>206</xmin>
+      <ymin>203</ymin>
+      <xmax>762</xmax>
+      <ymax>401</ymax>
+    </bndbox>
+  </object>
+</annotation>

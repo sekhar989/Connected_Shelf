@@ -1,0 +1,26 @@
+<annotation>
+  <folder>images-2017-11-07T04-40-13</folder>
+  <filename>IMG_7339</filename>
+  <path>C:\Users\krishnendu.s.kar\Documents\images-2017-11-07T04-40-13\IMG_7339.jpeg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>816</width>
+    <height>612</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>competitor_01</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>181</xmin>
+      <ymin>273</ymin>
+      <xmax>770</xmax>
+      <ymax>536</ymax>
+    </bndbox>
+  </object>
+</annotation>

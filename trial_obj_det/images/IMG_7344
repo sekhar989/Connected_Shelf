@@ -1,0 +1,26 @@
+<annotation>
+  <folder>images-2017-11-07T04-40-13</folder>
+  <filename>IMG_7344</filename>
+  <path>C:\Users\krishnendu.s.kar\Documents\images-2017-11-07T04-40-13\IMG_7344.jpeg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>816</width>
+    <height>612</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>competitor_02</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>174</xmin>
+      <ymin>198</ymin>
+      <xmax>723</xmax>
+      <ymax>481</ymax>
+    </bndbox>
+  </object>
+</annotation>
