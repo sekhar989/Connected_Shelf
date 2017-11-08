@@ -29,6 +29,20 @@ FLAGS = flags.FLAGS
 def class_text_to_int(row_label):
     if row_label == 'blackcherry':
         return 1
+    elif row_label == 'lemon':
+        return 2
+    elif row_label == 'lemonade':
+        return 3
+    elif row_label == 'lime':
+        return 4
+    elif row_label == 'orange':
+        return 5
+    elif row_label == 'pineapple':
+        return 6
+    elif row_label == 'competitor_01':
+        return 7
+    elif row_label == 'competitor_02':
+        return 8
     else:
         None
 
