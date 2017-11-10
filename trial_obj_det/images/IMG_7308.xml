@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>images_compressed</folder>
 	<filename>IMG_7308.jpeg</filename>
-	<path>/home/vm/Documents/Connected_Shelf/trial_obj_det/images/IMG_7308.jpeg</path>
+	<path>/home/vm/Documents/Connected_Shelf/Object detection/images_compressed/IMG_7308.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>orange</name>
+		<name>blood_orange</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>282</xmin>
-			<ymin>402</ymin>
-			<xmax>356</xmax>
-			<ymax>504</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>orange</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>422</xmin>
-			<ymin>269</ymin>
-			<xmax>568</xmax>
-			<ymax>316</ymax>
+			<xmin>148</xmin>
+			<ymin>266</ymin>
+			<xmax>772</xmax>
+			<ymax>510</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -2,9 +2,9 @@
 Usage:
   # From tensorflow/models/
   # Create train data:
-  python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=train.record
+  python3 gen_tf_rec.py --csv_input=data/train_labels.csv  --output_path=data/train.record
   # Create test data:
-  python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=test.record
+  python3 gen_tf_rec.py --csv_input=data/test_labels.csv  --output_path=data/test.record
 """
 from __future__ import division
 from __future__ import print_function
@@ -35,7 +35,7 @@ def class_text_to_int(row_label):
         return 3
     elif row_label == 'lime':
         return 4
-    elif row_label == 'orange':
+    elif row_label == 'blood_orange':
         return 5
     elif row_label == 'pineapple':
         return 6

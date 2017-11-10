@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images_compressed</folder>
+	<filename>IMG_7543.jpeg</filename>
+	<path>/home/vm/Documents/Connected_Shelf/Object detection/images_compressed/IMG_7543.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>816</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pineapple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>155</ymin>
+			<xmax>781</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>images_compressed</folder>
 	<filename>IMG_7348.jpeg</filename>
-	<path>/home/vm/Documents/Connected_Shelf/trial_obj_det/images/IMG_7348.jpeg</path>
+	<path>/home/vm/Documents/Connected_Shelf/Object detection/images_compressed/IMG_7348.jpeg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>248</xmin>
-			<ymin>315</ymin>
-			<xmax>665</xmax>
-			<ymax>560</ymax>
+			<xmin>212</xmin>
+			<ymin>312</ymin>
+			<xmax>696</xmax>
+			<ymax>581</ymax>
 		</bndbox>
 	</object>
 </annotation>
