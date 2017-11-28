@@ -35,13 +35,13 @@ def class_text_to_int(row_label):
         return 3
     elif row_label == 'lime':
         return 4
-    elif row_label == 'blood_orange':
+    elif row_label == 'blood_orange':   
         return 5
     elif row_label == 'pineapple':
         return 6
-    elif row_label == 'competitor_01':
+    elif row_label == 'shasta':
         return 7
-    elif row_label == 'competitor_02':
+    elif row_label == 'talking_rain':
         return 8
     else:
         None

@@ -1,0 +1,8 @@
+1:blackcherry
+2:lemon
+3:lemonade
+4:lime
+5:blood_orange
+6:pineapple
+7:competitor_01
+8:competitor_02
