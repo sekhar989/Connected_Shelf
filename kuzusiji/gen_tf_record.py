@@ -27,24 +27,7 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'blackcherry':
-        return 1
-    elif row_label == 'lemon':
-        return 2
-    elif row_label == 'lemonade':
-        return 3
-    elif row_label == 'lime':
-        return 4
-    elif row_label == 'blood_orange':   
-        return 5
-    elif row_label == 'pineapple':
-        return 6
-    elif row_label == 'shasta':
-        return 7
-    elif row_label == 'talking_rain':
-        return 8
-    else:
-        None
+    
 
 
 def split(df, group):
@@ -53,7 +36,7 @@ def split(df, group):
     return [data(filename, gb.get_group(x)) for filename, x in zip(gb.groups.keys(), gb.groups)]
 
 
-def create_tf_example(group, path):
+def create_tf_example(group, path, classes):
     with tf.gfile.GFile(os.path.join(path, '{}'.format(group.filename)), 'rb') as fid:
         encoded_jpg = fid.read()
     encoded_jpg_io = io.BytesIO(encoded_jpg)
@@ -75,7 +58,7 @@ def create_tf_example(group, path):
         ymins.append(row['ymin'] / height)
         ymaxs.append(row['ymax'] / height)
         classes_text.append(row['class'].encode('utf8'))
-        classes.append(class_text_to_int(row['class']))
+        classes.append(classes.index(row['class']) + 1)
 
     tf_example = tf.train.Example(features=tf.train.Features(feature={
         'image/height': dataset_util.int64_feature(height),
@@ -98,9 +81,10 @@ def main(_):
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
     path = os.path.join(os.getcwd(), 'images')
     examples = pd.read_csv(FLAGS.csv_input)
-    grouped = split(examples, 'filename')
+    classes = list(df['class'].unique())
+    grouped = split(examples, 'image_id')
     for group in grouped:
-        tf_example = create_tf_example(group, path)
+        tf_example = create_tf_example(group, path, classes)
         writer.write(tf_example.SerializeToString())
 
     writer.close()
